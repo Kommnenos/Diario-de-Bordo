@@ -33,6 +33,8 @@ def processar_arquivo(caminho_csv: str):
         print(dataframe.show())
         print(dataframe_saida.show())
 
+        return dataframe_saida
+
     except Exception as e:
         print(f"Erro ao processar {caminho_csv}: {e}")
 

@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  spark-worker:
+    build: .
+    container_name: spark_processor
+    volumes:
+      - ./dados_recebidos:/app/dados_recebidos
+      - ./dados_processados:/app/dados_processados
+    working_dir: /app
+    command: ["python3", "main.py"]
