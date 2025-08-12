@@ -4,7 +4,7 @@ Code Assignment - Pedro Lealdini
 
 ## Para Rodar:
 ```bash
-https://github.com/Kommnenos/Diario-de-Bordo.git
+git clone https://github.com/Kommnenos/Diario-de-Bordo.git
 docker-compose up
 ```
 - aguarde o sistema processar os dados na pasta dados_recebidos
